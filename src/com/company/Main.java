@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        byte a = scan.nextByte();
-        byte b = scan.nextByte();
-        byte c = scan.nextByte();
 
-        System.out.println(a * 3600 + b * 60  + c);
+        Scanner scan = new Scanner(System.in);
+        int h = scan.nextInt();
+        int m = scan.nextInt();
+        int s = scan.nextInt();
+        System.out.println(h * 3600 + m * 60 + s);
 
 
     }
