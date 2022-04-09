@@ -10,7 +10,7 @@ public class Main {
         byte b = scan.nextByte();
         byte c = scan.nextByte();
 
-        System.out.println(a * 3600 + b * 601  + c);
+        System.out.println(a * 3600 + b * 60  + c);
 
 
     }
